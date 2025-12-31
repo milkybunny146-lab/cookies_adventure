@@ -1,5 +1,84 @@
-# Vue 3 + Vite
+# 🍪 餅乾大冒險 - 遊戲切版展示專案
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+一個採用 ERP 系統介面設計風格的遊戲切版展示專案，將遊戲化元素與企業級管理系統的視覺設計相結合。
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 📋 專案簡介
+
+「餅乾大冒險」是一個採用 ERP 系統介面設計風格的遊戲切版展示專案，將遊戲化元素與企業級管理系統的視覺設計相結合，呈現出獨特的用戶體驗。
+
+本專案以 Vue 3 + Vite 技術棧開發，採用組件化架構設計，包含完整的響應式佈局，支援桌面端與移動端無縫切換。系統架構包含頂部導航欄、側邊選單、主內容區與底部資訊欄，展現出類似 ERP 系統的專業介面風格。
+
+專案功能涵蓋王國總覽儀表板、餅乾圖鑑管理、戰鬥副本系統、背包道具管理、成就系統、冒險故事、聯絡中心、每日獎勵與系統設定等九大核心模組。每個模組均採用卡片式設計、數據可視化圖表與清晰的資訊層級，展現出企業級系統的專業感與遊戲化的趣味性。
+
+## ✨ 主要功能
+
+- 🏰 **王國總覽** - 數據儀表板與統計資訊
+- 🍪 **餅乾圖鑑** - 餅乾收集與管理系統
+- ⚔️ **戰鬥副本** - 章節式戰鬥系統
+- 🎒 **背包道具** - 道具管理與使用
+- 🏆 **成就系統** - 成就追蹤與獎勵
+- 📖 **冒險故事** - 章節式故事閱讀
+- 💬 **聯絡勇者** - 聯絡表單與 FAQ
+- 🎁 **每日獎勵** - 簽到系統與週獎勵
+- ⚙️ **系統設定** - 完整的設定選項
+
+## 🛠️ 技術棧
+
+- **框架**: Vue 3 (Composition API)
+- **建置工具**: Vite
+- **樣式**: CSS3 (響應式設計)
+- **架構**: 組件化設計
+
+## 🚀 快速開始
+
+### 安裝依賴
+
+```bash
+npm install
+```
+
+### 開發模式
+
+```bash
+npm run dev
+```
+
+### 建置生產版本
+
+```bash
+npm run build
+```
+
+### 預覽生產版本
+
+```bash
+npm run preview
+```
+
+## 📱 響應式設計
+
+專案完全支援響應式設計，適配以下螢幕尺寸：
+
+- **桌面端**: 1024px 以上
+- **平板**: 768px - 1024px
+- **手機**: 480px - 768px
+- **小手機**: 480px 以下
+
+## 📂 專案結構
+
+```
+cookie-adventure/
+├── src/
+│   ├── components/      # Vue 組件
+│   ├── assets/          # 靜態資源
+│   ├── App.vue          # 主應用組件
+│   ├── main.js          # 入口文件
+│   └── style.css        # 全局樣式
+├── public/              # 公共資源
+├── index.html           # HTML 模板
+└── vite.config.js       # Vite 配置
+```
+
+## 📄 授權
+
+此專案僅供展示與學習使用。
